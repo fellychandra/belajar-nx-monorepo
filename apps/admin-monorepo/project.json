@@ -24,7 +24,7 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "admin-monorepo:build"
+        "buildTarget": "admin-monorepo:build","port" : 4200
       },
       "configurations": {
         "development": {
